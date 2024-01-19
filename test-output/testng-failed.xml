@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.mqa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="com.mqa.testcases.CallSettingsTest">
+        <methods>
+          <include name="initcap"/>
+          <include name="Call_Setting_selectDNDdisconnect"/>
+          <include name="Call_Setting_Voicemails"/>
+          <include name="Call_Setting_selectIVR"/>
+          <include name="CallSettings_Ringmyphone"/>
+          <include name="Call_Setting_CallForward"/>
+          <include name="Call_Setting_selectschedule"/>
+          <include name="Call_Setting_selectPlayGreeting"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.CallSettingsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="com.mqa.testcases.SchedulesTest">
+        <methods>
+          <include name="initcap"/>
+          <include name="Verify_create_Schedules"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.SchedulesTest -->
+      <class name="com.mqa.testcases.InboxTest">
+        <methods>
+          <include name="VerifySentMessage_WithInAct"/>
+          <include name="screenShot"/>
+          <include name="initcap"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.InboxTest -->
+      <class name="com.mqa.testcases.MenusTest">
+        <methods>
+          <include name="Verify_create_Menus"/>
+          <include name="screenShot"/>
+          <include name="initcap"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.MenusTest -->
+      <class name="com.mqa.testcases.CallHistoryTest">
+        <methods>
+          <include name="initcap"/>
+          <include name="screenShot"/>
+          <include name="CallHistory"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.CallHistoryTest -->
+      <class name="com.mqa.testcases.SharedGreetings">
+        <methods>
+          <include name="initcap"/>
+          <include name="Verify_create_SharedGreetings"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.SharedGreetings -->
+      <class name="com.mqa.testcases.LoginTest">
+        <methods>
+          <include name="initcap"/>
+          <include name="Login"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.LoginTest -->
+      <class name="com.mqa.testcases.VoicemailsTest">
+        <methods>
+          <include name="screenShot"/>
+          <include name="Voicemail"/>
+          <include name="initcap"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.VoicemailsTest -->
+      <class name="com.mqa.testcases.SharedMenus">
+        <methods>
+          <include name="screenShot"/>
+          <include name="Verify_create_SharedMenu"/>
+          <include name="initcap"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.SharedMenus -->
+      <class name="com.mqa.testcases.GreetingsTest">
+        <methods>
+          <include name="screenShot"/>
+          <include name="initcap"/>
+          <include name="Verify_create_Greetings"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.GreetingsTest -->
+      <class name="com.mqa.testcases.CallHandlers">
+        <methods>
+          <include name="Verify_create_CallHandlers"/>
+          <include name="initcap"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- com.mqa.testcases.CallHandlers -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

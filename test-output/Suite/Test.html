@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 27 10:19:01 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>928 seconds (928426 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mqa.testcases.CallHistoryTest.CallHistory()'><b>CallHistory</b><br>Test class: com.mqa.testcases.CallHistoryTest</td>
+<td></td>
+<td>25</td>
+<td>com.mqa.testcases.CallHistoryTest@6d07a63d</td></tr>
+<tr>
+<td title='com.mqa.testcases.CallSettingsTest.CallSettings_Ringmyphone()'><b>CallSettings_Ringmyphone</b><br>Test class: com.mqa.testcases.CallSettingsTest</td>
+<td></td>
+<td>47</td>
+<td>com.mqa.testcases.CallSettingsTest@20435c40</td></tr>
+<tr>
+<td title='com.mqa.testcases.LoginTest.Login()'><b>Login</b><br>Test class: com.mqa.testcases.LoginTest</td>
+<td></td>
+<td>16</td>
+<td>com.mqa.testcases.LoginTest@573906eb</td></tr>
+<tr>
+<td title='com.mqa.testcases.InboxTest.VerifySentMessage_WithInAct()'><b>VerifySentMessage_WithInAct</b><br>Test class: com.mqa.testcases.InboxTest</td>
+<td></td>
+<td>63</td>
+<td>com.mqa.testcases.InboxTest@479ceda0</td></tr>
+<tr>
+<td title='com.mqa.testcases.CallHandlers.Verify_create_CallHandlers()'><b>Verify_create_CallHandlers</b><br>Test class: com.mqa.testcases.CallHandlers</td>
+<td></td>
+<td>52</td>
+<td>com.mqa.testcases.CallHandlers@25f4878b</td></tr>
+<tr>
+<td title='com.mqa.testcases.GreetingsTest.Verify_create_Greetings()'><b>Verify_create_Greetings</b><br>Test class: com.mqa.testcases.GreetingsTest</td>
+<td></td>
+<td>44</td>
+<td>com.mqa.testcases.GreetingsTest@488d1cd7</td></tr>
+<tr>
+<td title='com.mqa.testcases.MenusTest.Verify_create_Menus()'><b>Verify_create_Menus</b><br>Test class: com.mqa.testcases.MenusTest</td>
+<td></td>
+<td>48</td>
+<td>com.mqa.testcases.MenusTest@38ba6ce3</td></tr>
+<tr>
+<td title='com.mqa.testcases.SchedulesTest.Verify_create_Schedules()'><b>Verify_create_Schedules</b><br>Test class: com.mqa.testcases.SchedulesTest</td>
+<td></td>
+<td>45</td>
+<td>com.mqa.testcases.SchedulesTest@68dc098b</td></tr>
+<tr>
+<td title='com.mqa.testcases.SharedGreetings.Verify_create_SharedGreetings()'><b>Verify_create_SharedGreetings</b><br>Test class: com.mqa.testcases.SharedGreetings</td>
+<td></td>
+<td>66</td>
+<td>com.mqa.testcases.SharedGreetings@d278d2b</td></tr>
+<tr>
+<td title='com.mqa.testcases.SharedMenus.Verify_create_SharedMenu()'><b>Verify_create_SharedMenu</b><br>Test class: com.mqa.testcases.SharedMenus</td>
+<td></td>
+<td>71</td>
+<td>com.mqa.testcases.SharedMenus@2d6c53fc</td></tr>
+<tr>
+<td title='com.mqa.testcases.VoicemailsTest.Voicemail()'><b>Voicemail</b><br>Test class: com.mqa.testcases.VoicemailsTest</td>
+<td></td>
+<td>18</td>
+<td>com.mqa.testcases.VoicemailsTest@571c5681</td></tr>
+</table><p>
+</body>
+</html>

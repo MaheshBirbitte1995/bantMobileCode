@@ -1,0 +1,53 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <listeners>
+  <listener class-name="com.mqa.ExtentReportListener.ExtentReporterNG"> </listener>
+  </listeners>
+  
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.mqa.testcases.CallSettingsTest"/>
+      </classes>
+  </test>
+  <test thread-count="5" name="Test2">
+    <classes>
+     <class name="com.mqa.testcases.CallHistoryTest"/>
+     <class name="com.mqa.testcases.LoginTest"/>
+     <class name="com.mqa.testcases.InboxTest"/>
+     <class name="com.mqa.testcases.VoicemailsTest"/>
+      <class name="com.mqa.testcases.GreetingsTest"/>
+      <class name="com.mqa.testcases.SchedulesTest"/>
+      <class name="com.mqa.testcases.MenusTest"/>
+      <class name="com.mqa.testcases.SharedGreetings"/>
+      <class name="com.mqa.testcases.SharedMenus"/>
+      <class name="com.mqa.testcases.CallHandlers"/>
+      
+      
+     <!--  
+      <class name="com.mqa.testcases.LoginTest"/>
+      <class name="com.mqa.testcases.InboxTest"/>
+      <class name="com.mqa.testcases.CallHistoryTest"/>
+      <class name="com.mqa.testcases.VoicemailsTest"/>
+      <class name="com.mqa.testcases.GreetingsTest"/>
+      <class name="com.mqa.testcases.SchedulesTest"/>
+      <class name="com.mqa.testcases.MenusTest"/>
+      <class name="com.mqa.testcases.SharedGreetings"/>
+      <class name="com.mqa.testcases.SharedMenus"/>
+      <class name="com.mqa.testcases.CallHandlers"/>
+      -->
+      
+      <!--  
+       <class name="com.mqa.testcases.CallHistoryTest"/>
+      <class name="com.mqa.testcases.VoicemailsTest"/>
+      <class name="com.mqa.testcases.RecordingsTest"/>
+      <class name="com.mqa.testcases.CallSettingsTest"/>
+      <class name="com.mqa.testcases.GreetingsTest"/>
+      <class name="com.mqa.testcases.SchedulesTest"/>
+      <class name="com.mqa.testcases.EmergencyAddressTest"/>
+      <class name="com.mqa.testcases.MenusTest"/>
+      <class name="com.mqa.testcases.BlockedNumbersTest"/> -->
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
